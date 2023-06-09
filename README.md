@@ -32,13 +32,13 @@ Use the panel above to set the risk management settings.
 ![image](https://user-images.githubusercontent.com/42057975/218644556-1f8a9c87-08e7-4207-b5ae-35b84507ff9b.png)
 To select the index, ATM offset, and lots, please follow these steps:
 
-![image](https://user-images.githubusercontent.com/42057975/218645280-8e15fd1f-9136-4548-a439-52d576001ba2.png)
-
 Set the ATM offset. This updates every 15 seconds based on the index move. -1 = ITM1 for both CE and PE. 1= OTM1 for both CE and PE.
 Modify the lots in the settings.yml file.
 Click the Long button to place a CE order or the Short button to place a PE order. The Straddle button creates a long straddle.
 Remember that the risk management settings set in the panel above are considered for the trade, and any changes made later only affect the new trade.
 To close all open positions, click the Exit All button. To cancel any open orders placed using an LMT order, click the Cancel All Open Orders button.
+
+![image](https://user-images.githubusercontent.com/42057975/218645280-8e15fd1f-9136-4548-a439-52d576001ba2.png)
 
 To view all open positions, use the panel above. To close an open position, select it and right-click on it. Alternatively, shift the SL to cost+1 (LTP should be higher than entry+1).
 
