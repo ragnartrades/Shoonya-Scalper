@@ -15,17 +15,22 @@ Ensure that the indentation and spacing are maintained in the settings.yml file.
 You can adjust the following settings:
 
 SL Buffer: A negative value, such as -1, ensures that you offer to sell at a price one point lower than the SL trigger price. This improves the chance of order filling if the strike is illiquid.
-Entry Buffer: If LMT is set as pricetype in settings.yml, you can use this to set the buffer. A negative value such as -1 means that the LMT order is placed at BestBuy-EntryBuffer. For example, if the LTP is 100 and the entry buffer is -1, the LMT order is placed at 99. The pricetype in settings.yml can be LMT or MKT. MKT places a market order and ignores the Entry Buffer setting.
+
+Entry Buffer: If LMT is set as pricetype in settings.yml, you can use this to set the buffer. A negative value such as -1 means that the LMT order is placed at BestBuy-EntryBuffer. For example, if the LTP is 100 and the 
+
+entry buffer is -1, the LMT order is placed at 99. The pricetype in settings.yml can be LMT or MKT. MKT places a market order and ignores the Entry Buffer setting.
+
 SL Points: Stoploss in points. If set as 0, the SL and TSL features are disabled.
+
 TSL Points: Stoploss is trailed by x points.
+
 Target: Set the target in points. For example, if the target is 20 and the entry price is 100, the trade gets closed when the price reaches 120.
+
 Lock Points (x) / Lock profit after (y): If the "lock profit after value" is more than 0, when LTP crosses y, the SL shifts to x points so that you lock some profit. For example, if SL is 20, TSL is 1, Lock Profit After is 10, and Lock Profit at is 5, when the LTP reaches 110 instead of the SL being at 90, it shifts the SL to 105. Now, 5 profit points are locked. Do not use this feature during high volatility.
 
+Use the panel above to set the risk management settings.
 ![image](https://user-images.githubusercontent.com/42057975/218644556-1f8a9c87-08e7-4207-b5ae-35b84507ff9b.png)
 To select the index, ATM offset, and lots, please follow these steps:
-
-Use the panel above to set the risk management settings.
-Select the index.
 
 ![image](https://user-images.githubusercontent.com/42057975/218645280-8e15fd1f-9136-4548-a439-52d576001ba2.png)
 
