@@ -58,3 +58,5 @@ If you are not using the Telegram bot, please clear the field as follows:
 telegrambottoken: ''
 telegrambotchatId: ''
 To generate a TOTP, please refer to this video: https://www.youtube.com/watch?v=yJi3SuQc_Xk.
+
+https://t.me/sathyarajshettigar for quick support
